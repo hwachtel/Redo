@@ -18,22 +18,45 @@
   font-style: normal;
 }
 
+@media screen and (max-width:1000px){
+ 
+ .mobile{
+  display:none;
+ }
+}
+
+@media screen and (max-width:480px){
+  .desktop{
+    display:none;
+  }
+  .mobile{
+    display:block;
+    }
+  }
+
+
+
+
+
+
 h1{
 
 font-family:'Poiret One', cursive;
+font-size:40px;
 color:black;
 margin:auto;
 position:absolute;
-top:208px;
+top:119px;
 left:262px;
 bottom:0;
 right:0;
+opacity:12px;
 
 }
 html,body {
   margin:0px;
   padding:0px;
-  font-family:'Roboto';
+  font-family:'Poiret One', cursive
   color:#e5e5e7;
 }
 
