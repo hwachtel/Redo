@@ -11,17 +11,44 @@
 
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  
-  <h1>378 Website Starter</h1>
+  <div class="ui  grid page stackable">
+   <h1>Get The Weather!!</h1>
+  <div id="content" class="center">
+  <div id="top">
+    <input id="city" type="text" value="Enter City Name"  autocomplete="off"/>
+    <button id="search" type="submit" value="" class="fontawesome-search"></button>
+  </div>
+  <div id="middle">
+    <span id="icon">R</span>
+    <span id="temp">00</span>
+    <span class="degree">&deg;</span>
+    <span id="current_unit">F</span>
+    <span id="other_unit">C</span>
+    <div id="description">
+
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+<footer>
+  <div id="bottom">
+   Credit
+    <a href="https://dribbble.com/shots/1129568-Los-Angeles-CA" target="_blank"><div id="credit" class="zocial-dribbble"></div></a>
+  </div>
+</div>
+</footer>
 
   
   
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="js/semantic.min.js"></script>
+  <script src="js/jquery.simpleWeather.js"></script>
+  <script src="js/gulpfile.js"></script>
   <script src="js/scripts.js"></script>
 
 </body>

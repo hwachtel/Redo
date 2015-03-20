@@ -1,0 +1,222 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+@font-face {
+  font-family: 'MeteoconsRegular';
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/meteocons-webfont.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/meteocons-webfont.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/meteocons-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/meteocons-webfont.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/meteocons-webfont.svg#MeteoconsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+
+font-family:'Poiret One', cursive;
+color:black;
+margin:auto;
+position:absolute;
+top:208px;
+left:262px;
+bottom:0;
+right:0;
+
+}
+html,body {
+  margin:0px;
+  padding:0px;
+  font-family:'Roboto';
+  color:#e5e5e7;
+}
+
+body {
+  background-image: -webkit-linear-gradient(bottom left, #FFFFFF 0%, #91CBCF 100%);
+}
+
+a {
+  color:inherit;
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#content {
+  color:#aaabaf;
+  background:#505C5C;
+  background:rgb(80,92,92);
+  height:571px;
+  width:577px;
+  padding:101px;
+  border-radius:50%;
+  opacity:4px;
+}
+
+#top {
+  border-bottom:2px #95A7B2 solid;
+  padding:0px 0px 28px 0px;
+}
+
+#city {
+  font-family: 'Poiret One', cursive;
+  color:#e5e5e7;
+  font-size:24px;
+  background:transparent;
+  border:none;
+  outline:0;
+}
+
+#search {
+  opacity:0;
+  float:right;
+  border:none;
+  background:#111216;
+  padding:8px 14px 8px 14px;
+  font-size:26px;
+  border-radius:4px;
+  color:#56565f;
+  outline:0;
+  top:-6px;
+  position:relative;
+  transition: color .25s;
+}
+
+#search:hover {
+    color:white;
+}
+
+#middle {
+  font-family: 'Poiret One', cursive;
+  margin-top:40px;
+  font-size:100px;
+  color:#FFFCF9;
+  font-weight:300;
+}
+
+
+#temp {
+  margin:0px 0px 0px 11px;
+}
+
+.degree {
+  margin:0px -15px;
+  position:relative;
+  top:-15px;
+}
+
+#current_unit {
+  margin:0px 10px 0px 0px;
+}
+
+#other_unit {
+  font-size:.40em;
+  color:#95A7B2;
+  font-weight:300;
+  border-left:1px #95A7B2 solid;
+  padding-left:16px;
+  top:-45px;
+  position:relative;
+  cursor:pointer;
+  transition: #B2ABA1 .20s;
+
+}
+
+#other_unit:hover {
+  color:#ececec;
+}
+
+#description {
+  font-size:25px;
+  position:relative;
+  top:-25px;
+  width:100%;
+  display:inline-block;
+  text-align:center;
+}
+
+#description span {
+  display:inline-block;
+  margin:54px 15px;
+  padding:0px;
+  color:black;
+}  
+
+#icon {
+  font-family: 'MeteoconsRegular';
+  font-size:1em;
+  top:10px;
+  position:relative;
+  color: #95A7B2;
+}
+
+
+#loader {
+  border:3px #e5e5e7 solid;
+  border-radius:100px;
+  height:130px;
+  width:130px;
+  opacity:0;
+}
+
+#loader span.spinner {
+  border-left:31px #e5e5e7 solid;
+  border-right:31px #e5e5e7 solid;
+  height:20px;
+  width:70px;
+  -webkit-transform:rotate(0deg);
+  -webkit-animation: rotate 3s linear infinite;
+  display:block;
+  opacity:0;
+}
+
+#loader .text {
+  height:30px;
+  width:130px;
+  text-align:center;
+}
+
+@-webkit-keyframes rotate {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+#bottom {
+  color:black;
+  bottom:0;
+  position:fixed;
+  margin:10px;
+  width:100%;
+  color:#66676c;
+  z-index:99;
+  float:left;
+}
+
+#credit {
+  background:#D23A51;
+  opacity:.9;
+  padding:17px 28px;
+  margin:0px 30px 8px 0px;
+  float:left;
+  font-size:27px;
+  color:white;
+  transition: margin .25s;
+  position:fixed;
+  bottom:0px;
+  z-index:99;
+}
+
+#credit:hover {
+  margin:0px 20px 8px 0px;
+}
